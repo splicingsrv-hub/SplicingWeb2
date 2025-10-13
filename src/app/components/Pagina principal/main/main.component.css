@@ -1,0 +1,104 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+   
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem;
+   
+
+
+  }
+  
+  .card {
+    width: 25rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background: linear-gradient(90deg, #e5e7e9 0%, #fbfcfd 100%);
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 1rem;
+  }
+  
+  .card-text {
+    margin: 0;
+    font-size: 0.95rem;
+    color: #333;
+    line-height: 1.4;
+      text-align: justify;
+       text-justify: inter-word;
+       word-spacing: normal;     /* Ajusta la separación entre palabras */
+        hyphens: auto;            /* Permite cortar palabras al final de línea */
+  }
+  
+
+  .card-button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #007bff; /* azul estilo Bootstrap */
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.2s ease;
+  }
+  
+  .card-button:hover {
+    background-color: #0056b3;
+    
+  }
+
+  /*Imagenes fijas*/
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  
+  }
+  
+
+
+
+
+  /* Responsive para pantallas chicas */
+  @media (max-width: 768px) {
+    .card {
+      width: 100%;
+    }
+  }
+
+
+  
+  /* Opcional: ajusta márgenes o tamaño para pantallas pequeñas */
+  @media (max-width: 576px) {
+    .img-fluid {
+      width: 80%;
+    }
+  }
+
+
+  .video_animacion{
+
+display: flex;
+padding-bottom: 1rem;
+
+
+
+  }

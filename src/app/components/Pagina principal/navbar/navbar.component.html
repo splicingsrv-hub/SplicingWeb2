@@ -1,0 +1,64 @@
+
+  <!-- Menú de navegación -->
+ 
+ <header>
+
+ 
+ 
+  <nav class="navbar">
+
+    <div class="logo">
+     <img src="asset/Imagenes/Logo.png" alt="Logo de Splicing">
+      </div>
+      <div class="menu-icon" (click)="toggleMenu()"[class.active]="isMenuOpen">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+         </div>
+    <ul class="nav-links" [class.active]="isMenuOpen">
+      <div class="closeMenu" (click)="toggleMenu()">
+        <i class="fas fa-sign-out-alt"></i>
+      </div>
+     <li><a href="#">Empresa</a></li>
+     <li><a href="#">Soluciones</a></li>
+     <li><a href="#">Productos</a></li>
+     <li><a href="#">Herramientas</a></li>
+     <li><a href="#">Recursos</a></li>
+
+
+     
+
+<!-- Aquí agregamos el arte extra -->
+
+ 
+  <span class="icons">
+    <i class="fab fa-facebook"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-github"></i>
+  </span>
+
+
+
+
+    </ul>
+     <!-- Formulario de búsqueda -->
+     <div class="Buscador-contenedor">
+  
+      <input type="text" class="search-input" placeholder=" Buscar..">
+      
+      
+      <button class="search-button"aria-label="Buscar">
+         <p>XD</p>
+      <!--<i class="fas fa-search"></i> -->
+      </button> 
+  
+  
+     </div>
+  </nav>
+  
+  <!--Para el meu hamburgesa fondo oscuro-->
+  <div class="overlay" [class.active]="isMenuOpen" (click)="toggleMenu()"></div>
+
+
+</header>

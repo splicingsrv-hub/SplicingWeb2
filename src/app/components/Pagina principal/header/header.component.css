@@ -1,0 +1,66 @@
+
+
+
+.contact-bar{
+
+margin-top: 0rem;
+margin-bottom: 0rem;
+margin-left: 0rem;
+margin-right: 0rem;
+padding-top: 1rem;
+padding-bottom: 0.6rem;
+padding-right: 0rem;
+padding-left: 0rem;
+
+}
+
+.contact-bar ul{
+ display: flex;
+ justify-content: flex-end;
+ padding-top: 0rem;
+ padding-bottom: 0rem;
+ padding-right: 3rem;
+ padding-left: 0rem;
+ gap: 1rem; /* Espaciado entre los elementos */
+ list-style: none; /*quita los puntos negros de las listas */
+
+}
+
+
+.nav-link {
+
+  color: #0b2b88; /* color predeterminado */
+  text-decoration: none; /* quita la linea de los textos */
+  font-weight: bold;
+  font-size: 0.8rem;
+  padding: 5px 10px;
+  display: inline-block; /* necesario para que scale funcione bien */
+  transition: transform 0.2s ease, color 0.2s ease;
+  }
+
+  .nav-link:hover {
+    color: #9aa3ac; /* color al pasar el mouse */
+    transform: scale(1.1); /* agranda el icono al pasar el puntero */
+}
+
+.nav-link:active {
+    color: #5d6d7e; /* color más tenue al hacer clic */
+    transform: scale(0.95); /* pequeño "click" visual */
+}
+
+@media (max-width: 915px) {
+  .contact-bar {
+    display: flex;
+    justify-content: center; /* centra horizontalmente todo el contenido */
+    align-items: center;     /* centra verticalmente si hay altura */
+  }
+
+  .contact-bar ul {
+    display: flex;           /* activar flex en el ul */
+    justify-content: center; /* centra los items dentro del ul */
+    align-items: center;     /* centra los items horizontalmente */
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+}
