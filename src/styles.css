@@ -14,14 +14,12 @@ body {
 
 
 /* Fondo de imagen */
-  background-image: url('/asset/Imagenes/Carrusel/fondo.jpg'); /* ruta desde src/assets */
+  /* background-image: url('/asset/Imagenes/Carrusel/fondo.jpg'); ruta desde src/assets */
   background-size: cover;       /* cubre todo el fondo */
   background-position: center;  /* centra la imagen */
   background-repeat: no-repeat; /* evita repetición */
   background-attachment: fixed; /* opcional: fondo fijo al hacer scroll */
   height: 100vh;                /* asegura que ocupe toda la pantalla */
-
-
-
+ 
 
 }

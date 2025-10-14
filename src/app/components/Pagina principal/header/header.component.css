@@ -11,6 +11,7 @@ padding-top: 1rem;
 padding-bottom: 0.6rem;
 padding-right: 0rem;
 padding-left: 0rem;
+background-color: #162246;
 
 }
 
@@ -29,7 +30,7 @@ padding-left: 0rem;
 
 .nav-link {
 
-  color: #0b2b88; /* color predeterminado */
+  color: #eef1f9; /* color predeterminado */
   text-decoration: none; /* quita la linea de los textos */
   font-weight: bold;
   font-size: 0.8rem;

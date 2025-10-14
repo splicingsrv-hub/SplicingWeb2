@@ -14,7 +14,7 @@
     margin: auto;
     overflow: hidden;
     border-radius: 0px;
-    
+     background-color: #000; /* relleno si sobra espacio */
   
     
 
@@ -33,7 +33,7 @@
   
   .carrusel-item img {
     width: 100%; /* Asegura que las imágenes se adapten al ancho */
-    height: 100%; /* Hace que las imágenes ocupen toda la altura disponible */
+    height: auto; /* Hace que las imágenes ocupen toda la altura disponible */
     object-fit: cover; /* Mantiene la proporción de la imagen, recortando si es necesario */
     display: block;
   }
@@ -46,9 +46,10 @@
     border: none;
     padding: 1rem;
     color: white;
-    font-size: 2rem;
+    font-size: 1rem;
     cursor: pointer;
     z-index: 2;
+    border-radius: 30px;
   }
   
   .carrusel-button.prev {

@@ -74,7 +74,39 @@
   }
   
 
+/*bran*/
+.brand {
+  /*background-color: blue;*/
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-top: 0rem; 
+  padding-bottom: 0rem;          /* sin padding */
+  width: 100%;           /* ocupa todo el ancho del contenedor padre */
+  text-align: center;    /* centra la imagen horizontalmente */
+  
+  
+}
 
+.brand img {
+  width: 100%;           /* La imagen cubre todo el ancho del contenedor */
+  max-width: 100%;       /* Evita que se salga si la imagen es más grande */
+  height: 35rem;          /* Mantiene la proporción original */
+ 
+ 
+  
+}
+
+
+@media (max-width: 768px){
+.brand {
+width: 100%;
+
+
+}
+
+
+
+}
 
 
   /* Responsive para pantallas chicas */

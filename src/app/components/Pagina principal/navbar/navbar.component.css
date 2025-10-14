@@ -8,10 +8,12 @@ align-items: center;
 background: linear-gradient(90deg, #010507 0%, #1b3fa0 100%);
 padding-top: 1rem;
 padding-bottom: 1rem;
-height: 4.5rem;
+height: 3.5rem;
 color: white ;
 
-
+  /*  Hace que el contenido (como el logo) esté por encima del siguiente contenedor */
+  position: relative;
+  z-index: 10;
 
     }
 
@@ -27,7 +29,9 @@ color: white ;
       padding-bottom: 0rem ;
       cursor: pointer;
    
-    
+      /*  Asegura que la imagen quede sobre todo lo demás */
+  position: relative;
+  z-index: 20;
 
           }
    .logo img:hover{
@@ -141,26 +145,11 @@ flex-shrink: 0;            /*  Para que no se achique y deforme */
 }
 
 
-
-
 /* Cambio de color al pasar el cursor */
 .search-button:hover {
   transform: scale(1.05);
   background-color: #b17e11;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
