@@ -1,0 +1,117 @@
+:host {
+  display: block;
+  min-height: 100vh;
+  background-color: #f4f7fb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: system-ui, sans-serif;
+  padding: 2rem;
+}
+
+.login-card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 420px;
+  text-align: left;
+}
+
+h1 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.5rem;
+}
+
+.lead {
+  margin-bottom: 1rem;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  font-size: 0.9rem;
+  color: #111;
+  margin-bottom: 0.3rem;
+}
+
+input[type='email'],
+input[type='password'] {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  outline: none;
+  box-sizing: border-box;
+}
+
+input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.08);
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.8rem 0;
+  font-size: 0.9rem;
+}
+
+.options a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.options a:hover {
+  text-decoration: underline;
+}
+
+button {
+  width: 100%;
+  padding: 0.7rem;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #9cb9f3;
+  cursor: not-allowed;
+}
+
+.register {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.register a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.register a:hover {
+  text-decoration: underline;
+}
+
+/* Mensaje de error */
+.error-msg {
+  background: #fee2e2;
+  color: #991b1b;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  margin-bottom: 0.9rem;
+  font-size: 0.95rem;
+}

@@ -11,7 +11,7 @@ body {
   font-size: 16px; /* tamaño base */
   color: #333; /* color de texto predeterminado */
   line-height: 1.5; /* altura de línea para mejor legibilidad */
-
+  background-color: #f4f7fb;/*color de la pagina parte tarsera*/
 
 /* Fondo de imagen */
   /* background-image: url('/asset/Imagenes/Carrusel/fondo.jpg'); ruta desde src/assets */
